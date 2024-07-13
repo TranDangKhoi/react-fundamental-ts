@@ -6,6 +6,7 @@ const Homepage = () => {
     <div>
       <Navbar></Navbar>
       <HomepageBanner></HomepageBanner>
+      <Navbar></Navbar>
     </div>
   );
 };

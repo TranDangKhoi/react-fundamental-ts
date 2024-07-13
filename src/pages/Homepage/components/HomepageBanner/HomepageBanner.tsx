@@ -1,7 +1,11 @@
-import PlanATripIcon from "src/components/Icons/PlanATripIcon";
 import WaveIcon from "src/components/Icons/WaveIcon";
-import ManPicture from "src/assets/ManPicture.png";
 import "./HomepageBanner.scss";
+import PlanATripIcon from "src/components/Icons/PlanATripIcon";
+import ManPicture from "src/assets/ManPicture.png";
+
+// Note #1:
+// Span là một thẻ inline -> đồng nghĩa với việc là các đoạn text sẽ nằm ngang hàng nhau
+// chỉ khi nào vượt quá width quy định thì mới xuống dòng
 
 const HomepageBanner = () => {
   return (
@@ -17,7 +21,7 @@ const HomepageBanner = () => {
         <p className="banner-paragraph">We make it easy to plan and book your next trip with a Day by Day itinerary.</p>
         <button className="banner-button">
           <span className="banner-button-text">Plan A Trip</span>
-          <span className="banner-button-arrow">
+          <span className="banner-button-icon">
             <PlanATripIcon></PlanATripIcon>
           </span>
         </button>
